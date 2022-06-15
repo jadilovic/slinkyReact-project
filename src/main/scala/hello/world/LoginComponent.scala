@@ -22,5 +22,7 @@ def render(): ReactElement = div (
     "Message: ",
     input(`type` := "text", value := state.loginMessage, onChange := (e => setState(state.copy(loginMessage = e.target.value)))),
     br(),
+    "Hello : !",
+    br(),
     )
 }
