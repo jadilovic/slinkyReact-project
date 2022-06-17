@@ -39,9 +39,9 @@ import slinky.web.html._
 
     def addTask(): Unit = {
         val newList = state.newTask :: state.tasks
-        setState(state.copy(newTask = ""))
+        // setState(state.copy(newTask = ""))
         println(newList)
-        setState(state.copy(tasks = newList))
+        setState(state.copy(tasks = newList, newTask = ""))
     }
 
     def loadTasks(): Unit = {

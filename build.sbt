@@ -18,7 +18,7 @@ Compile / npmDevDependencies += "webpack-merge" -> "5.8.0"
 libraryDependencies += "me.shadaj" %%% "slinky-web" % "0.6.7"
 libraryDependencies += "me.shadaj" %%% "slinky-hot" % "0.6.7"
 
-libraryDependencies += "org.scalatest" %%% "scalatest" % "3.2.9" % Test
+libraryDependencies += "org.scalatest" %%% "scalatest-funsuite" % "3.2.9" % Test
 
 scalacOptions += "-Ymacro-annotations"
 
